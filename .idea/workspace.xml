@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="378237d3-d52a-45af-b29f-89e2b9719b69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/anotacao/ColunaTabela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/anotacao/Tabela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/anotacao/TipoChave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/ClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/IClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/IProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/IVendaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/Persistente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/ProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/VendaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/factory/ClienteFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/factory/ProdutoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/factory/ProdutoQuantidadeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/factory/VendaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/generic/GenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/generic/IGenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/generic/SingletonMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/generic/jdbc/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/generic/jpa/GenericJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/generic/jpa/IGenericJapDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/jpa/ClienteJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/jpa/IClienteJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/jpa/IProdutoJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/jpa/IVendaJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/jpa/ProdutoJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/dao/jpa/VendaJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/domain/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/domain/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/domain/ProdutoQuantidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/domain/Venda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/domain/jpa/ClienteJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/domain/jpa/ProdutoJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/domain/jpa/ProdutoQuantidadeJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/domain/jpa/VendaJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/exceptions/DAOException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/exceptions/MaisDeUmRegistroException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/exceptions/TableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/exceptions/TipoChaveNaoEncontradaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/exceptions/TipoElementoNaoConhecidoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/services/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/services/IClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/services/IProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/services/ProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/services/generic/GenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/services/generic/IGenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/services/generic/jpa/GenericJpaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/kezia/com/services/generic/jpa/IGenericJpaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/kezia/com/AllTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/kezia/com/ClienteDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/kezia/com/ClienteServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/kezia/com/ProdutoDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/kezia/com/ProdutoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/kezia/com/VendaDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/kezia/com/dao/ClienteDaoMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/kezia/com/dao/ProdutoDaoMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/kezia/com/dao/VendaExclusaoJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/kezia/com/dao/jpa/ClienteJpaDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/kezia/com/dao/jpa/ProdutoJpaDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/kezia/com/dao/jpa/VendaJpaDAOTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ZsGxaNkO5Fy0Uv587T9pDktJzV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Pr. Adiel.DESKTOP-0ABD431.000/IdeaProjects/ProjetoMod35/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pr. Adiel.DESKTOP-0ABD431.000\IdeaProjects\ProjetoMod35\src\main\java" />
+      <recent name="C:\Users\Pr. Adiel.DESKTOP-0ABD431.000\IdeaProjects\ProjetoMod35\src\test" />
+      <recent name="C:\Users\Pr. Adiel.DESKTOP-0ABD431.000\IdeaProjects\ProjetoMod35\src\test\java\br\kezia\com" />
+      <recent name="C:\Users\Pr. Adiel.DESKTOP-0ABD431.000\IdeaProjects\ProjetoMod35\src\main\java\br\kezia\com" />
+      <recent name="C:\Users\Pr. Adiel.DESKTOP-0ABD431.000\IdeaProjects\ProjetoMod35\src\main\java\br\kezia\com\dao" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.kezia.com.dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.hibernate.dialect" />
+      <recent name="org.postgresql" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="378237d3-d52a-45af-b29f-89e2b9719b69" name="Changes" comment="" />
+      <created>1703203623767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703203623767</updated>
+      <workItem from="1703203624667" duration="10000" />
+      <workItem from="1703359483355" duration="4500000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
